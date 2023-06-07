@@ -2,11 +2,16 @@
 import { Code } from 'astro/components'
 import Layout from '../layouts/Base.astro';
 
-const CODE = ` _   _      _ _                            _     _ 
-| | | | ___| | | ___   __      _____  _ __| | __| |
-| |_| |/ _ \ | |/ _ \  \ \ /\ / / _ \| '__| |/ _` |
-|  _  |  __/ | | (_) |  \ V  V / (_) | |  | | (_| |
-|_| |_|\___|_|_|\___/    \_/\_/ \___/|_|  |_|\__,_|`
+const CODE = `[timestamp] runit: entering stage 1
+[timestamp] runit: starting service A
+[timestamp] runit: service A started successfully
+[timestamp] runit: starting service B
+[timestamp] runit: service B started successfully
+[timestamp] runit: entering stage 2
+[timestamp] runit: starting service C
+[timestamp] runit: service C started successfully
+[timestamp] runit: all services started, system initialization complete
+`
 ---
 
 <Layout title="Эмбеддер">
