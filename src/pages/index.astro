@@ -2,27 +2,22 @@
 import { Code } from 'astro/components'
 import Layout from '../layouts/Base.astro';
 
-const CODE = `# Clone the repository
-git clone https://github.com/TheOtterlord/manual
-# Navigate to the directory
-cd manual
-# Install dependencies
-npm install
-# Start the dev server
-npm run dev`
+const CODE = ` _   _      _ _                            _     _ 
+| | | | ___| | | ___   __      _____  _ __| | __| |
+| |_| |/ _ \ | |/ _ \  \ \ /\ / / _ \| '__| |/ _` |
+|  _  |  __/ | | (_) |  \ V  V / (_) | |  | | (_| |
+|_| |_|\___|_|_|\___/    \_/\_/ \___/|_|  |_|\__,_|`
 ---
 
-<Layout title="Manual">
+<Layout title="Эмбеддер">
 	<main>
     <div class="max-w-6xl mx-auto dark:text-white md:py-32 md:flex">
       <div class="p-8 md:w-1/2">
-        <h1 class="text-6xl font-bold my-4">Manual</h1>
+        <h1 class="text-6xl font-bold my-4">Эмбеддер</h1>
         <p class="text-2xl my-8">
-          Build <b class="text-green-600 dark:text-green-400">robust</b>, <b class="text-green-600 dark:text-green-400">modern</b> documentation sites with the Manual theme.
+         здесь о <b class="text-green-600 dark:text-green-400">встраиваемых системах</b> 
         </p>
-        <a href="/docs/get-started/introduction" class="inline-block bg-green-700 hover:bg-green-800 text-white text-lg font-bold py-2 px-4 rounded">
-          GET STARTED
-        </a>
+        
       </div>
       <div class="w-full p-8 md:w-1/2 [&_pre]:p-4 [&_pre]:rounded-2xl [&_pre]:shadow-xl [&_pre]:border-2 [&_pre]:border-green-500">
         <Code code={CODE} lang="sh"/>
@@ -30,15 +25,13 @@ npm run dev`
     </div>
     <div class="bg-green-700 dark:bg-zinc-800">
       <div class="max-w-6xl mx-auto md:py-16 p-8 text-center">
-        <h1 class="text-white text-6xl font-bold mb-16">Build Your Project!</h1>
+        <h1 class="text-white text-6xl font-bold mb-16">Разделы!</h1>
         <div class="md:flex md:justify-center space-y-8 md:space-y-0 md:gap-x-8 dark:text-white">
           <div>
             <div class="bg-zinc-100 dark:bg-zinc-900 p-8 rounded-2xl shadow-xl">
-              <h2 class="text-2xl font-bold">Card 1</h2>
+              <h2 class="text-2xl font-bold">Одноплатные Компьютеры</h2>
               <p class="text-gray-600 dark:text-gray-400 my-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                tincidunt, nisl eget aliquam tincidunt, nisl elit aliquam
-                tortor, eget aliquam nisl elit non nisl.
+                самодостаточные компьютеры, собранные на одной печатной плате
               </p>
               <a href="/docs/get-started/introduction" class="inline-block bg-green-700 hover:bg-green-800 text-white text-lg font-bold py-2 px-4 rounded">
                 LEARN
@@ -47,11 +40,9 @@ npm run dev`
           </div>
           <div>
             <div class="bg-zinc-100 dark:bg-zinc-900 p-8 rounded-2xl shadow-xl">
-              <h2 class="text-2xl font-bold">Card 2</h2>
+              <h2 class="text-2xl font-bold">Микроконтроллеры</h2>
               <p class="text-gray-600 dark:text-gray-400 my-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                tincidunt, nisl eget aliquam tincidunt, nisl elit aliquam
-                tortor, eget aliquam nisl elit non nisl.
+                микросхемы, предназначенная для управления электронными устройствами
               </p>
               <a href="/docs/guides/migrate-from-z" class="inline-block bg-green-700 hover:bg-green-800 text-white text-lg font-bold py-2 px-4 rounded">
                 MIGRATE
@@ -60,11 +51,9 @@ npm run dev`
           </div>
           <div>
             <div class="bg-zinc-100 dark:bg-zinc-900 p-8 rounded-2xl shadow-xl">
-              <h2 class="text-2xl font-bold">Card 3</h2>
+              <h2 class="text-2xl font-bold">Программное Обеспечение</h2>
               <p class="text-gray-600 dark:text-gray-400 my-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                tincidunt, nisl eget aliquam tincidunt, nisl elit aliquam
-                tortor, eget aliquam nisl elit non nisl.
+                Встроенное программное обеспечение предназначено для управления и контроля аппаратной части устройства, обеспечения его функциональности и взаимодействия с внешними системами.
               </p>
               <a href="/docs/get-started/installation" class="inline-block bg-green-700 hover:bg-green-800 text-white text-lg font-bold py-2 px-4 rounded">
                 INSTALL
