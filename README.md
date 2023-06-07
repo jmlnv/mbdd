@@ -1,30 +1,13 @@
 <h3 align=center>
-  <code>npx degit TheOtterlord/manual</code>
+  <code>embedder</code>
 </h3>
 
 <br/>
 
-<div align=center>
-  <a href="https://dsc.gg/otterlord">
-    <img src="https://img.shields.io/discord/805766973605937173" alt="discord">
-  </a>
-  <img src="https://img.shields.io/github/license/TheOtterlord/manual" alt="licensed under MIT">
-  <img src="https://img.shields.io/badge/lighthouse-400-brightgreen" alt="lighthouse score of 400">
-  <a href="https://developer.stackblitz.com/github/TheOtterlord/manual/tree/main">
-    <img src="https://img.shields.io/badge/open%20in-stackblitz-blue" alt="open in stackblitz">
-  </a>
-  <a href="https://codesandbox.io/s/github/TheOtterlord/manual/tree/main">
-    <img src="https://img.shields.io/badge/open%20in-codesandbox-ff8" alt="open in codesandbox">
-  </a>
-</div>
-
-<br/>
-
-![Manual](assets/thumbnail.png)
 
 ## 🚀 Getting Started
 
-Once you've downloaded the template with `npx degit TheOtterlord/manual`, install dependencies and start the dev server:
+install dependencies and start the dev server:
 
 ```bash
 npm install
